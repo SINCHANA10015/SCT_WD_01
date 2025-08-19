@@ -1,0 +1,27 @@
+<!-- Save as novatech-logo.svg -->
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- defs: gradient + soft glow -->
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00E5FF"></stop>
+      <stop offset="100%" stop-color="#7C4DFF"></stop>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"></feGaussianBlur>
+      <feMerge>
+        <feMergeNode in="blur"></feMergeNode>
+        <feMergeNode in="SourceGraphic"></feMergeNode>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Inverted triangle (pointing down) -->
+  <!-- Points form an equilateral triangle centered in the viewbox -->
+  <polygon points="100,170 25,40 175,40" fill="none" stroke="url(#grad)" stroke-width="8" filter="url(#glow)"></polygon>
+
+  <!-- Monogram N inside -->
+  <path d="M70 135 V75 L130 135 V75" fill="none" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"></path>
+
+  <!-- Brand text -->
+  <text x="100" y="190" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="20" fill="white" opacity="0.95">NovaTech</text>
+</svg>
