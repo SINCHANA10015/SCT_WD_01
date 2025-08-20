@@ -256,7 +256,7 @@ section{
          padding: 8px 10px;
      }
      .logo img{
-         height: 25px;
+         height: 20px;
      }
 
   #nav-links.active {
@@ -287,6 +287,7 @@ footer {
   bottom: 0;
   width: 100%;
 }
+
 
 
 
