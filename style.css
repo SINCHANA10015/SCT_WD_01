@@ -246,7 +246,7 @@ section{
     align-items: center;
     display: none;
     padding: 20px 0;
-   
+    border-radius:8px;
   }
 
   #nav-links.active {
@@ -262,8 +262,16 @@ section{
   
 }
 @media (max-width: 768px) {
-  #nav-links.active ~ .content-section {
-    margin-top: 200px; 
+  .hore h1 {
+    font-size: 2rem;
+  }
+  .about .container, 
+  .services .container, 
+  .contact .container {
+    padding: 20px;
+  }
+  .service-card {
+    grid-template-columns: 1fr; /* stack cards */
   }
 }
 
