@@ -259,7 +259,7 @@ section{
   }
   
 }
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   .hore h1 {
     font-size: 2rem;
   }
@@ -283,6 +283,7 @@ footer {
   bottom: 0;
   width: 100%;
 }
+
 
 
 
