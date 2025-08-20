@@ -10,7 +10,6 @@ body{
      background: url('https://images.unsplash.com/photo-1518770660439-4636190af475') 
                 no-repeat center center/cover;
     background-attachment: fixed;
-    padding:80px;
 }
 
 /*navigation bar*/
@@ -247,11 +246,14 @@ section{
     align-items: center;
     display: none;
     padding: 20px 0;
-    border-radius:8px;
+   
   }
 
   #nav-links.active {
     display: flex;
+    margin-top: 60px;
+    flex-direction:row;
+    margin-right: 250px;
   }
 
   #menu-toggle {
@@ -259,17 +261,9 @@ section{
   }
   
 }
-@media (max-width: 480px) {
-  .hore h1 {
-    font-size: 2rem;
-  }
-  .about .container, 
-  .services .container, 
-  .contact .container {
-    padding: 20px;
-  }
-  .service-card {
-    grid-template-columns: 1fr; /* stack cards */
+@media (max-width: 768px) {
+  #nav-links.active ~ .content-section {
+    margin-top: 200px; 
   }
 }
 
@@ -283,7 +277,4 @@ footer {
   bottom: 0;
   width: 100%;
 }
-
-
-
 
