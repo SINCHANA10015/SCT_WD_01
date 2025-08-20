@@ -248,6 +248,10 @@ section{
     padding: 20px 0;
    
   }
+     #nav-links li a { 
+         font-size: 12px;
+         padding: 5px 8px;
+     }
 
   #nav-links.active {
     display: flex;
@@ -277,4 +281,5 @@ footer {
   bottom: 0;
   width: 100%;
 }
+
 
