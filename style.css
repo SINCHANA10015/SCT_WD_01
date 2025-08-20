@@ -287,36 +287,8 @@ footer {
   bottom: 0;
   width: 100%;
 }
-/* Small screen fixes */
-@media (max-width: 480px) {
-  /* Navbar adjustments */
-  #navbar {
-    padding: 8px 12px;
-  }
 
-  .logo img {
-    height: 40px;   /* smaller logo */
-  }
 
-  #nav-links {
-    gap: 10px;      /* reduce space between links */
-  }
-
-  #nav-links li a {
-    font-size: 14px;   /* smaller link text */
-    padding: 4px 6px;
-  }
-
-  /* Hero section text */
-  .hore h1 {
-    font-size: 1.8rem;  /* smaller heading */
-    line-height: 1.3;
-  }
-
-  .hore p {
-    font-size: 14px;    /* smaller paragraph */
-  }
-}
 
 
 
