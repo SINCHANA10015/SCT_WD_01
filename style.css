@@ -10,6 +10,7 @@ body{
      background: url('https://images.unsplash.com/photo-1518770660439-4636190af475') 
                 no-repeat center center/cover;
     background-attachment: fixed;
+    padding:80px;
 }
 
 /*navigation bar*/
@@ -282,5 +283,6 @@ footer {
   bottom: 0;
   width: 100%;
 }
+
 
 
