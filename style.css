@@ -60,8 +60,8 @@ body {
 }
 
 .nav-links a:hover {
-  color: #ff9800;
-  border-bottom: 2px solid #ff9800;
+  color: #d13590;
+  border-bottom: 2px solid #d13590;
 }
 
 
@@ -183,3 +183,4 @@ body {
     grid-template-columns: 1fr; 
   }
 }
+
